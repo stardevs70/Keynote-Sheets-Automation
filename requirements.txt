@@ -1,0 +1,13 @@
+# Google Sheets API dependencies
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+
+# PowerPoint automation
+python-pptx>=0.6.23
+
+# Configuration file support
+PyYAML>=6.0.1
+
+# Optional: for better number formatting
+babel>=2.13.0

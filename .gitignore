@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# OAuth credentials (NEVER commit these!)
+credentials.json
+token.json
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Test outputs
+test_output.pptx
+test_updated_deck.pptx
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

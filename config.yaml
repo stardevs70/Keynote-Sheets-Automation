@@ -1,0 +1,36 @@
+# Google Sheets -> PowerPoint Investor Deck Auto-Update Configuration
+# ===================================================================
+
+google:
+  # The spreadsheet ID from your Google Sheets URL
+  # Example: https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit
+  spreadsheet_id: "YOUR_SPREADSHEET_ID_HERE"
+
+  # The tab name containing the mapping configuration
+  mapping_sheet: "KeynoteMap"
+
+  # The tab name containing the source data (from Data Vault)
+  data_sheet: "JJ new Vault"
+
+  # OAuth credentials file (downloaded from Google Cloud Console)
+  credentials_file: "credentials.json"
+
+  # Token file for storing OAuth refresh tokens
+  token_file: "token.json"
+
+powerpoint:
+  # Path to the PowerPoint file to update
+  file_path: "Investor Report.pptx"
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "update_presentation.log"
+
+# Dry-run mode - if true, logs actions without actually updating PowerPoint
+dry_run: false
+
+# Default formatting options
+defaults:
+  empty_value: ""  # What to show for empty cells (could be "N/A", "-", etc.)
+  error_value: "#ERROR"  # What to show when a value can't be fetched

@@ -1,0 +1,14 @@
+ID,Sheet Range,Slide,Target Type,Object Name,Row,Col,Format,Prefix,Suffix,Notes
+report_date,DataVault!B2,1,shape,ReportDate,,,text,,,Report period heading
+revenue_value,DataVault!B5,2,shape,RevenueValue,,,currency0,,,Main revenue display
+growth_value,DataVault!B6,2,shape,GrowthValue,,,percent1,,,YoY growth percentage
+customer_value,DataVault!B7,2,shape,CustomerValue,,,integer,,,Active customer count
+q4_revenue,DataVault!D10,3,table_cell,FinancialTable,2,4,currency0,,,Q4 Revenue in table
+q4_expenses,DataVault!D11,3,table_cell,FinancialTable,3,4,currency0,,,Q4 Expenses in table
+q4_net_income,DataVault!D12,3,table_cell,FinancialTable,4,4,currency0,,,Q4 Net Income in table
+cac_current,DataVault!E15,4,table_cell,KPITable,2,2,currency0,,,Customer Acquisition Cost
+ltv_current,DataVault!E16,4,table_cell,KPITable,3,2,currency0,,,Customer Lifetime Value
+churn_current,DataVault!E17,4,table_cell,KPITable,4,2,percent1,,,Churn rate percentage
+total_revenue,DataVault!B20,5,shape,TotalRevenue,,,currency0,Total Revenue: ,,Summary revenue with prefix
+yoy_growth,DataVault!B21,5,shape,YoYGrowth,,,percent1,Year-over-Year Growth: ,,Summary growth with prefix
+inception_date,DataVault!B22,5,shape,InceptionDate,,,date_mdy,Fund Inception: ,,Date with custom format
